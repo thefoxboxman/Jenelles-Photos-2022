@@ -1,4 +1,18 @@
-# SvelteKit / Sanity.io starter
+# Project README:
+
+## SANITY STUDIO:
+All Sanity CMS development is done inside "Studio" folder.
+
+## Frontend using Svelte Kit:
+Frontend "Web App" is everything else except the "Studio" folder.
+
+## Hosted on Netlify:
+
+
+
+
+## ------------------------------------------------------
+# Project Starter - SvelteKit / Sanity.io starter
 
 _Front-end for your Sanity project, built with [Svelte Kit](https://kit.svelte.dev)._
 
