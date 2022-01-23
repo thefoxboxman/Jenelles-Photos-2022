@@ -1,6 +1,8 @@
 # Jenelles-Photos-2022-studio
 
-Sanity Commands:
+## Studio 
+   Hosted on Netlify: https://jenelles-photos-2022-studio.netlify.app/
+## Sanity Commands:
 Commands:
    - build        -Builds the current Sanity configuration to a static bundle
    - codemod      -Runs a code modification script

@@ -14,8 +14,7 @@ Frontend "Web App" is everything else except the "Studio" folder.
 
 ## Hosted on Netlify:
 
-https://jenelles-photos-2022-studio.netlify.app/
-
+https://jenelles-photos-2022.netlify.app/
 
 ## ------------------------------------------------------
 # Project Starter - SvelteKit / Sanity.io starter
