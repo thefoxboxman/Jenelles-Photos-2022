@@ -14,6 +14,7 @@
   <nav>
     <ul>
       <li><a data-selected={path === '/'} href="/">home</a></li>
+      <li><a data-selected={path === '/blog'} href="blog">blog</a></li>
     </ul>
   </nav>
 </header>
