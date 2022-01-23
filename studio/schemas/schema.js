@@ -5,6 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // document schemas
+import photo from "./documents/photo"
 import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
@@ -15,12 +16,13 @@ import authorReference from './objects/authorReference'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
-  name: 'blog',
+  name: 'Jenelles Photos 2022',
   // Then proceed to concatenate our our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
+    photo,
     post,
     category,
     author,
