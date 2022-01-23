@@ -5,6 +5,6 @@ node_modules
 /package
 .env
 .netlify
-
+.vscode
 # The studio will be built in static/studio, which shouldn't be commited
 /static/studio
