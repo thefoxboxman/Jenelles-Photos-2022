@@ -3,7 +3,7 @@
         Wrangler" at
         <a href="https://www.eaglefox.com.au">... Eaglefox</a>
 
-  💘
+  
 
   
 </footer>
@@ -13,8 +13,7 @@
     display: flex;
   justify-content: center;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 1
-  rem;
+  font-size: 1rem;
   }
   a {
     color: yellowgreen;
