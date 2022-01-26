@@ -34,8 +34,8 @@ export default{
           type: 'string',
         },
         {
-          title: 'Datetime',
-          name: 'datetime',
+          title: 'Created_At',
+          name: 'createdAt',
           type: 'datetime',
         },
         {
