@@ -27,14 +27,14 @@
   <title>Photo Roll 2022</title>
 </svelte:head>
 
-<h1>Jenelle's Recent Blog Posts</h1>
+
 
 <PhotoRoll {photos} />
 
 
-<h1>Jenelle's Photos 2022</h1>
 
-<p>am id doing stuff here...</p>
+
+
 
 <style>
   h1{

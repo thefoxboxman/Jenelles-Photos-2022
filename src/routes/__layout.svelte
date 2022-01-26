@@ -3,20 +3,20 @@
   import Footer from '$lib/Footer.svelte'
 </script>
 
-<Header blogTitle={'Jenelles Photos 2022'} />
+<Header  />
 
-<main style="padding: 1em">
+<main >
   <slot />
 </main>
 
 <Footer />
 
 <style>
-  :global(a) {
-    color: #1a4d9e;
-  }
-  :global(a:hover) {
-    color: #1e61cd;
-    border-bottom: none;
+  
+
+main {
+    background-color: black;
+    margin-top: 6rem;
+    padding: 1rem ;
   }
 </style>
