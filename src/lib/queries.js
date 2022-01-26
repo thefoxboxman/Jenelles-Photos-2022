@@ -25,3 +25,15 @@ name,
 slug,
 image,
 `
+
+
+export function getPhotosQuery() {
+  return /* groq */ `*[
+    _type == "photo" 
+  ] | order(publishedAt desc) {
+    title,
+    slug,
+    image,
+    publishedAt,
+  }`
+}
