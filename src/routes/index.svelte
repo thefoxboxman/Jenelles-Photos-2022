@@ -37,10 +37,7 @@
 
 
 <style>
-  h1{
-    margin: 5rem auto;
-  text-align: center;
-  }
+ 
   
 </style>
 
