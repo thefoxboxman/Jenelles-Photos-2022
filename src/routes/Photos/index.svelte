@@ -1,7 +1,7 @@
 <script context="module">
   export async function load({fetch}) {
     try {
-      const res = await fetch('/blog/all.json')
+      const res = await fetch('/photos/allphotos.json')
       const data = await res.json()
       return {
         props: data
@@ -13,24 +13,20 @@
 </script>
 
 <script>
-  import AuthorCard from '$lib/AuthorCard.svelte'
-  import PostsGrid from '$lib/PostsGrid.svelte'
+  
+  import PhotoRoll from '$lib/PhotoRoll.svelte'
 
-  export let posts
-  export let authors
+  export let photos
+  
 </script>
 
 <svelte:head>
-  <title>Blog</title>
+  <title>Jennelle Photo 2022</title>
 </svelte:head>
 
 <h1>Jenelle's Recent Blog Posts</h1>
 
-<PostsGrid {posts} />
+<PhotoRoll {photos} />
 
-<h2 style="margin-top: 4rem">Author{authors.length > 1 ? 's' : ''}</h2>
 
-{#each authors as author}
-  <AuthorCard {author} />
-{/each}
 

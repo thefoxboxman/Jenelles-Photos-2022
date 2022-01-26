@@ -30,10 +30,11 @@ image,
 export function getPhotosQuery() {
   return /* groq */ `*[
     _type == "photo" 
-  ] | order(publishedAt desc) {
+  ] | order(createdAt desc) {
     title,
     slug,
     image,
-    publishedAt,
+    createdAt,
+    description,
   }`
 }
