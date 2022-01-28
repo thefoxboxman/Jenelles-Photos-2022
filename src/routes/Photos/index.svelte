@@ -21,10 +21,10 @@
 </script>
 
 <svelte:head>
-  <title>Jennelle Photo 2022</title>
+  <title> Photo Roll</title>
 </svelte:head>
 
-<h1>Jenelle's Recent Blog Posts</h1>
+
 
 <PhotoRoll {photos} />
 
