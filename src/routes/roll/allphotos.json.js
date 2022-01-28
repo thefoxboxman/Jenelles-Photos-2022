@@ -1,10 +1,10 @@
-import { getPhotosQuery} from '$lib/queries'
+import {getPhotosQuery} from '$lib/queries'
 import {client} from '$lib/sanityClient'
 
-// Fetch all valid posts & authors to display in the homepage
+// Fetch all photos to display in the roll page
 export async function get() {
   const data = await client.fetch(/* groq */ `{
-		"photos": ${getPhotosQuery()},
+		"photos": ${getPhotosQuery()}
 		
   }`)
 

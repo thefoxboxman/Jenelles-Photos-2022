@@ -1,7 +1,7 @@
 <script context="module">
   export async function load({fetch}) {
     try {
-      const res = await fetch('/photos/allphotos.json')
+      const res = await fetch('/roll/allphotos.json')
       const data = await res.json()
       return {
         props: data
@@ -21,7 +21,8 @@
 </script>
 
 <svelte:head>
-  <title> Photo Roll</title>
+  <title>Roll</title>
+
 </svelte:head>
 
 
@@ -30,3 +31,4 @@
 
 
 
+<h1>roll here</h1>
