@@ -1,10 +1,9 @@
 <svelte:head>
-  <title>Flowers</title>
+  <title>Scapes</title>
 </svelte:head>
 
 
-
-<h1>Flower Photos go here</h1>
+<h1>Scapes Photos go here</h1>
 
 
 <style>h1{

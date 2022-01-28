@@ -1,13 +1,13 @@
 <svelte:head>
-  <title>Flowers</title>
+  <title>Astro</title>
 </svelte:head>
 
-
-
-<h1>Flower Photos go here</h1>
+<h1>Astro Photos go here</h1>
 
 
 <style>h1{
   color:bisque;
   text-align: center;   
   }   </style>
+
+

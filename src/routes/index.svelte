@@ -13,7 +13,8 @@
 
 <style>
   h1{
-    color: bisque
+    color: bisque;
+    text-align: center;
   }
 </style>
 
