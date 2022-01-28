@@ -17,7 +17,7 @@
     </div>
     <ul>
       <li><a class="nav-link" data-selected={path === '/'} href="/">Home</a></li>
-      <li><a class="nav-link" data-selected={path === '/photos'} href="/photos">Roll</a></li>
+      <li><a class="nav-link" data-selected={path === '/roll'} href="/roll">Roll</a></li>
       <li><a class="nav-link" data-selected={path === '/blog'} href="/blog">Blog</a></li>
       <li><a class="nav-link" data-selected={path === '/flowers'} href="/flowers">Flowers</a></li>
       <li><a class="nav-link" data-selected={path === '/birds'} href="/birds">Birds</a></li>
