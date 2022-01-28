@@ -29,15 +29,15 @@
 
 
 
-<PhotoRoll {photos} />
-
-
 <h1>is this working</h1>
 
 
 
+
+
+
 <style>
- 
+ h1{color: bisque}
   
 </style>
 
