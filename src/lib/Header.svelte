@@ -82,7 +82,7 @@ header{
 
 
  .nav a[data-selected='true'] {
-     font-weight: 600;
+     font-weight: 400;
      color: rgb(182, 175, 175);
    }
 
@@ -115,7 +115,7 @@ header{
 
 
   .nav-link:hover {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     background: white;
     color: black;
     cursor: pointer;
