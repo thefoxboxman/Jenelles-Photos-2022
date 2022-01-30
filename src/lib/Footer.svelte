@@ -14,6 +14,7 @@
   justify-content: center;
   font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
+  color:aliceblue;
   }
   a {
     color: yellowgreen;
