@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>Roll</title>
+  <title>Photo Roll</title>
 
 </svelte:head>
 
@@ -31,4 +31,4 @@
 
 
 
-<h1>roll here</h1>
+
