@@ -7,7 +7,7 @@ CMS address for content creation:
 https://jenelles-photos-2022-studio.netlify.app/
 
 **Sign in with Github**  
-Note!! Browser not accepting 3rd party cookies issue stops log in. Use Safari
+Note!! Browser not accepting 3rd party cookies issue stops log in. Use Safari instead
 
 ## Frontend using Svelte Kit:
 Frontend "Web App" is everything else except the "Studio" folder.
