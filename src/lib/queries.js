@@ -3,7 +3,7 @@
  * As your schema evolves, this pattern will be useful to keep your data in sync across all surfaces.
  */
 export function getPostsQuery(extraFilter) {
-  return /* groq */ `*[
+  return  `*[
     _type == "post" &&
     defined(slug.current) &&
     publishedAt < now()
@@ -25,10 +25,10 @@ name,
 slug,
 image,
 `
-
+/* Get all photos query and sort in ascending order */
 
 export function getPhotosQuery() {
-  return /* groq */ `*[
+  return  `*[
     _type == "photo" 
   ] | order(createdAt asc) {
     title,
@@ -38,3 +38,52 @@ export function getPhotosQuery() {
     description,
   }`
 }
+
+/* Get all Astro photos query and sort in ascending order */
+
+export function getAstroPhotosQuery() {
+  return  `*[
+    _type == "photo" 
+  && astro == true
+  }
+  ] | order(createdAt asc) {
+    title,
+    slug,
+    image,
+    createdAt,
+    description,
+  }`
+}
+
+/* Get all bird photos query and sort in ascending order */
+
+export function getBirdPhotosQuery() {
+  return  `*[
+    _type == "photo" 
+  && birds == true
+  }
+  ] | order(createdAt asc) {
+    title,
+    slug,
+    image,
+    createdAt,
+    description,
+  }`
+}
+
+/* Get all flower photos query and sort in ascending order */
+
+export function getFlowerPhotosQuery() {
+  return `*[
+    _type == "photo" 
+  && flowers == true
+  }
+  ] | order(createdAt asc) {
+    title,
+    slug,
+    image,
+    createdAt,
+    description,
+  }`
+}
+
