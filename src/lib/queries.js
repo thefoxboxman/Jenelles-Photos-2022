@@ -30,7 +30,7 @@ image,
 export function getPhotosQuery() {
   return /* groq */ `*[
     _type == "photo" 
-  ] | order(createdAt desc) {
+  ] | order(createdAt asc) {
     title,
     slug,
     image,
