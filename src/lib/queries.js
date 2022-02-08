@@ -45,7 +45,7 @@ export function getAstroPhotosQuery() {
   return  `*[
     _type == "photo" 
   && astro == true
-  }
+  
   ] | order(createdAt asc) {
     title,
     slug,
@@ -61,7 +61,7 @@ export function getBirdPhotosQuery() {
   return  `*[
     _type == "photo" 
   && birds == true
-  }
+  
   ] | order(createdAt asc) {
     title,
     slug,
@@ -77,7 +77,7 @@ export function getFlowerPhotosQuery() {
   return `*[
     _type == "photo" 
   && flowers == true
-  }
+  
   ] | order(createdAt asc) {
     title,
     slug,
@@ -87,3 +87,18 @@ export function getFlowerPhotosQuery() {
   }`
 }
 
+/* Get all scape photos query and sort in ascending order */
+
+export function getScapePhotosQuery() {
+  return `*[
+    _type == "photo" 
+  && landscapes == true
+  
+  ] | order(createdAt asc) {
+    title,
+    slug,
+    image,
+    createdAt,
+    description,
+  }`
+}

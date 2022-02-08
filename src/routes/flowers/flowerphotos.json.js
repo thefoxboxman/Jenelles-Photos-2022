@@ -1,10 +1,10 @@
-import {getBirdPhotosQuery} from '$lib/queries'
+import {getFlowerPhotosQuery} from '$lib/queries'
 import {client} from '$lib/sanityClient'
 
-// Fetch all bird tagged photos to display in the birds page
+// Fetch all photos to display in the roll page
 export async function get() {
   const data = await client.fetch(/* groq */ `{
-		"photos": ${getBirdPhotosQuery()}
+		"photos": ${getFlowerPhotosQuery()}
 		
   }`)
 

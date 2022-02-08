@@ -8,10 +8,10 @@
   <div class="title">{photo.title}</div>
   {#if photo.image}
     <div class="image">
-      <SanityImage image={photo.image} maxWidth={1200} />
+      <SanityImage image={photo.image}  />
     </div>
   {/if}
-  <div class="description">{photo.description} <span>{photo.createdAt}</span></div>
+  <div class="description">{photo.description} <!-- <span>{photo.createdAt}</span>--></div>
 </article>
 
 <style>
@@ -19,12 +19,22 @@
   article {
     text-align: center;
     color: whitesmoke;
-    
-    
+   padding-bottom: 2rem;
+   max-width: 90%;
   }
+
+  .title {
+    font-size: larger;
+    color:rgb(255, 187, 0);
+  }
+
+  .description{
+    font-size: smaller;
+  }
+ 
   .image {
    
-    padding-bottom: 62.5%;
+    padding-bottom: 100%;
     position: relative;
     overflow: hidden;
   }
@@ -33,7 +43,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    margin: 0;
+    object-fit: contain;
+    
   }
 </style>
