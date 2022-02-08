@@ -3,17 +3,16 @@
 ## SANITY STUDIO:
 All Sanity CMS development is done inside "Studio" folder.
 
-CMS address for content creation:
+## CMS address for content creation:
 https://jenelles-photos-2022-studio.netlify.app/
 
 **Sign in with Github**  
 Note!! Browser not accepting 3rd party cookies issue stops log in. Use Safari instead
 
-## Frontend using Svelte Kit:
+## Frontend developed using Svelte Kit:
 Frontend "Web App" is everything else except the "Studio" folder.
 
 ## Hosted on Netlify:
-
 https://jenelles-photos-2022.netlify.app/
 
 ## ------------------------------------------------------
