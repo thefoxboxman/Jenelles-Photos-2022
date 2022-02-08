@@ -1,13 +1,32 @@
+
+<script context="module">
+  export async function load({fetch}) {
+    try {
+      const res = await fetch('/birds/birdphotos.json')
+      const data = await res.json()
+      return {
+        props: data
+      }
+    } catch (err) {
+      console.log('500:', err)
+    }
+  }
+</script>
+
+<script>
+  
+  import PhotoRoll from '$lib/PhotoRoll.svelte'
+
+  export let photos
+  
+</script>
+
 <svelte:head>
-  <title>Flowers</title>
+  <title>Birds Only</title>
+
 </svelte:head>
 
 
 
-<h1>Flower Photos go here</h1>
+<PhotoRoll {photos} />
 
-
-<style>h1{
-  color:bisque;
-  text-align: center;   
-  }   </style>

@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <title>Photo Roll</title>
+  <title>Birds Only</title>
 
 </svelte:head>
 
