@@ -9,7 +9,7 @@
   <p>Using the navigation bar at the top the page you can choose to see the entire photo roll by
     clicking the "Roll" button...
   </p>
-  <p>...or you can see images I have tagged to a range of catergories such as flowers, birds etc.</p>
+  <p>...or you can see images I have tagged to a range of catergories such as flora, fauna etc.</p>
 <p>I am also writing a blog to give you some insights into my thoughts and practice
   in achieving the final images.
 </p>

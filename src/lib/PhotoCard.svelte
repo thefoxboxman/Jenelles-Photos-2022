@@ -19,7 +19,7 @@
   article {
     text-align: center;
     color: whitesmoke;
-   padding-bottom: 2rem;
+   padding-bottom: 5rem;
    max-width: 90%;
   }
 
@@ -33,7 +33,7 @@
   }
  
   .image {
-   
+  
     padding-bottom: 100%;
     position: relative;
     overflow: hidden;

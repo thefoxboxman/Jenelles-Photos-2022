@@ -49,13 +49,13 @@ export default{
           type: 'boolean',
         },
         {
-          title: 'Birds',
-          name: 'birds',
+          title: 'Fauna',
+          name: 'fauna',
           type: 'boolean',
         },
         {
-          title: 'Flowers',
-          name: 'flowers',
+          title: 'Flora',
+          name: 'flora',
           type: 'boolean',
         },
         {

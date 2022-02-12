@@ -2,7 +2,7 @@
 <script context="module">
   export async function load({fetch}) {
     try {
-      const res = await fetch('/birds/birdphotos.json')
+      const res = await fetch('/fauna/faunaphotos.json')
       const data = await res.json()
       return {
         props: data
@@ -22,7 +22,7 @@
 </script>
 
 <svelte:head>
-  <title>Birds Only</title>
+  <title>Fauna Images</title>
 
 </svelte:head>
 

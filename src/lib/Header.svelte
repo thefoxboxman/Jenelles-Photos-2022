@@ -19,8 +19,8 @@
       
       <li><a class="nav-link" data-selected={path === '/roll'} href="/roll">Roll</a></li>
       <li><a class="nav-link" data-selected={path === '/blog'} href="/blog">Blog</a></li>
-      <li><a class="nav-link" data-selected={path === '/flowers'} href="/flowers">Flowers</a></li>
-      <li><a class="nav-link" data-selected={path === '/birds'} href="/birds">Birds</a></li>
+      <li><a class="nav-link" data-selected={path === '/flora'} href="/flora">Flora</a></li>
+      <li><a class="nav-link" data-selected={path === '/fauna'} href="/fauna">Fauna</a></li>
       <li><a class="nav-link" data-selected={path === '/awards'} href="/awards">Awards</a></li>
       <li><a class="nav-link" data-selected={path === '/macro'} href="/macro">Macro</a></li>
       <li><a class="nav-link" data-selected={path === '/astro'} href="/astro">Astro</a></li>

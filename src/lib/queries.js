@@ -55,12 +55,12 @@ export function getAstroPhotosQuery() {
   }`
 }
 
-/* Get all bird photos query and sort in ascending order */
+/* Get all fauna photos query and sort in ascending order */
 
-export function getBirdPhotosQuery() {
+export function getFaunaPhotosQuery() {
   return  `*[
     _type == "photo" 
-  && birds == true
+  && fauna == true
   
   ] | order(createdAt asc) {
     title,
@@ -71,12 +71,12 @@ export function getBirdPhotosQuery() {
   }`
 }
 
-/* Get all flower photos query and sort in ascending order */
+/* Get all flora photos query and sort in ascending order */
 
-export function getFlowerPhotosQuery() {
+export function getFloraPhotosQuery() {
   return `*[
     _type == "photo" 
-  && flowers == true
+  && flora == true
   
   ] | order(createdAt asc) {
     title,
