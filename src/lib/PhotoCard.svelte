@@ -5,13 +5,13 @@
 </script>
 
 <article>
-  <div class="title">{photo.title}</div>
+ <!-- <div class="title">{photo.title}</div>-->
   {#if photo.image}
     <div class="image">
       <SanityImage image={photo.image}  />
     </div>
   {/if}
-  <div class="description">{photo.description} <!-- <span>{photo.createdAt}</span>--></div>
+ <!--  <div class="description">{photo.description}  <span>{photo.createdAt}</span></div> -->
 </article>
 
 <style>

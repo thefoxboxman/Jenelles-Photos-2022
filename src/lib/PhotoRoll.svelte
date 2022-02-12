@@ -11,5 +11,7 @@
 </section>
 
 <style>
-  
+  section {
+    position: relative;
+  }
 </style>

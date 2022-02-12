@@ -31,13 +31,17 @@
 
 <style>
 header{
-  max-width: 90%;
+  
+  
 }
    .navbar {
+     
     position: fixed;
     top: 0;
-    width: 90%;
+    left: 0;
+    width: 100%;
     padding-top: 10px;
+    z-index: 999;
     
   }
   .column {
@@ -71,8 +75,8 @@ header{
     text-decoration: none;
     color: orange;
     border: solid 0.1rem white;
-    border-radius: 0.2rem;
-    font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+    border-radius: 0.75rem;
+    
     font-size: 0.75rem;
     padding: 0.1rem 0.2rem;
     margin: 0.1rem;
@@ -84,12 +88,6 @@ header{
     font-weight: 400;
     color: rgb(182, 175, 175);
   }
-
-.nav-link {
-      font-size: 1.1rem;
-      padding: 0.2rem 0.4rem;
-      margin: 0.5rem;
-    }
 
   .nav-link:hover {
     font-size: 0.9rem;
