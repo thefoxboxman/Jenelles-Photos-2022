@@ -30,13 +30,14 @@
 </header>
 
 <style>
-header{
-  
-  
+header {
+  width: 100%;
 }
    .navbar {
-     
+     background-color: black;
     position: fixed;
+    display: flex;
+    flex-wrap: wrap;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,8 +46,9 @@ header{
     
   }
   .column {
-    display: flex;
+    
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .siteTitle {
     margin: 0 auto;
@@ -61,6 +63,7 @@ header{
   .nav {
     max-width: 90%;
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -69,7 +72,7 @@ header{
   }
 
   .nav li:first-child{
-    margin-left: 2rem;
+    margin-left: .2rem;
   }
   .nav-link {
     text-decoration: none;

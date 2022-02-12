@@ -10,7 +10,7 @@
   </h2>
   {#if post.image}
     <div class="image">
-      <SanityImage image={post.image} maxWidth={300} />
+      <SanityImage image={post.image}  />
     </div>
   {/if}
 </article>
@@ -18,29 +18,22 @@
 <style>
   article {
     display: flex;
-    /* Show images first */
-    flex-direction: column-reverse;
+   
   }
 
-  h2 {
-    margin: 1rem 0 0;
-  }
+  
 
-  h2 a {
-    text-decoration: none;
-  }
+ 
 
   .image {
-    padding-bottom: 62.5%;
+    padding-bottom: 66%;
     position: relative;
-    overflow: hidden;
+    
+     width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
   }
 
-  .image :global(img) {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0;
-  }
+  
 </style>

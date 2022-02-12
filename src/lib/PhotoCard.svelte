@@ -19,23 +19,17 @@
   article {
     text-align: center;
     color: whitesmoke;
-   padding-bottom: 5rem;
+  
    max-width: 90%;
   }
 
-  .title {
-    font-size: larger;
-    color:rgb(255, 187, 0);
-  }
-
-  .description{
-    font-size: smaller;
-  }
+  
  
   .image {
   
-    padding-bottom: 100%;
+    padding-bottom: 110%;
     position: relative;
+    
     overflow: hidden;
   }
 
@@ -44,6 +38,6 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    
+    padding-left: 2rem;
   }
 </style>
