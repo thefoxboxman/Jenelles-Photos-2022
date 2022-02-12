@@ -83,6 +83,7 @@ header {
     font-size: 0.75rem;
     padding: 0.1rem 0.2rem;
     margin: 0.1rem;
+    margin-top: 0.5rem;
     text-transform: capitalize;
   }
 
@@ -103,7 +104,7 @@ header {
   /*Mid range style the navbar with media query*/
   @media screen and (min-width: 600px) {
     .nav-link {
-      font-size: 1.1rem;
+      font-size: 1rem;
       padding: 0.2rem 0.4rem;
       margin: 0.5rem;
     }
