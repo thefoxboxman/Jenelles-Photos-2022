@@ -33,3 +33,14 @@
 {#each authors as author}
   <AuthorCard {author} />
 {/each}
+
+
+<style>
+  h1 {
+    color: orange;
+  }
+
+  h2 {
+    color: white;
+  }
+</style>

@@ -34,7 +34,7 @@
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>
-
+<article>
 <h1>{post.title}</h1>
 <p>
   Published {new Date(post.publishedAt).toLocaleDateString('en', {
@@ -67,3 +67,11 @@
     }
   }}
 />
+</article>
+
+<style>
+article {
+  color: white;
+}
+
+</style>
