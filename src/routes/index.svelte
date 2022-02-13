@@ -20,7 +20,7 @@
 <style>
   .main {
     background-color: black;
-    background-image: url(/Scape-P1430983.jpg);
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     background-size: cover;
     background-position: center;
     padding: 5rem;
@@ -33,6 +33,7 @@
 
    p {
     color: whitesmoke;
+    font-size: 1.6rem;
     text-align: center;
     margin: 1rem
   }
