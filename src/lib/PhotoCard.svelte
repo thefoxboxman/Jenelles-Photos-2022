@@ -5,12 +5,13 @@
 </script>
 
 <article>
- <div class="title">{photo.title}</div>
+ 
   {#if photo.image}
     <div class="image">
       <SanityImage image={photo.image}  />
     </div>
   {/if}
+  <div class="title">{photo.title}</div>
  <!--  <div class="description">{photo.description}  <span>{photo.createdAt}</span></div> -->
 </article>
 
@@ -27,9 +28,8 @@
   }
 
   .title {
-    position: absolute;
-    top: 1rem;
-    padding-left: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
     z-index: 90;
     background-color: black;
   }
